@@ -1,0 +1,63 @@
+=== VETDIAGNOSIS AI - MODELO 78.1% ===
+
+Data de Treinamento: 2025-10-11 21:02:24
+Dataset Usado: veterinary_complete_real_dataset.csv
+Acurácia Alcançada: 0.8000 (80.0%)
+CV Mean: 0.7953 ± 0.0125
+Amostras de Treino: 640
+Amostras de Teste: 160
+Features Usadas: 39
+Classes de Diagnóstico: 10
+
+Classes de Diagnóstico:
+  0: Artrose
+  1: Dermatite
+  2: Diabetes Mellitus
+  3: Doença Cardíaca
+  4: Doença Periodontal
+  5: Doença Renal Crônica
+  6: Neoplasia
+  7: Obesidade
+  8: Otite
+  9: Saudável
+
+Features Utilizadas:
+  0: idade_anos
+  1: hemoglobina
+  2: hematocrito
+  3: leucocitos
+  4: plaquetas
+  5: glicose
+  6: ureia
+  7: creatinina
+  8: alt
+  9: ast
+  10: fosfatase_alcalina
+  11: proteinas_totais
+  12: albumina
+  13: colesterol
+  14: triglicerideos
+  15: eosinofilos
+  16: febre
+  17: apatia
+  18: perda_peso
+  19: vomito
+  20: diarreia
+  21: tosse
+  22: letargia
+  23: feridas_cutaneas
+  24: poliuria
+  25: polidipsia
+  26: especie_encoded
+  27: sexo_encoded
+  28: idade_categoria_encoded
+  29: idade_quadrado
+  30: idade_log
+  31: idade_senior
+  32: idade_filhote
+  33: total_sintomas
+  34: severidade_sintomas
+  35: indice_anemia
+  36: indice_policitemia
+  37: indice_renal
+  38: indice_hepatico
