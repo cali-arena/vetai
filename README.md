@@ -18,40 +18,13 @@ O **DIAGVET IA** é um sistema completo de diagnóstico veterinário baseado em 
 
 ### 💾 Aplicação Backup
 - **Arquivo:** `app_backup.py` / `backup.py`
-- **URL Local:** http://localhost:8598
-- **URL Rede:** http://192.168.0.22:8598
-- **URL Externa:** http://181.222.101.75:8598
-- **Descrição:** Versão de backup com funcionalidades essenciais
+- **URL geral:** http://localhost:8598
+- **URL compilada:** https://diagvetai.streamlit.app/
+
 
 ### 📱 Aplicação Simples
 - **Arquivo:** `app_simples_vet.py`
 - **Descrição:** Versão simplificada focada em predições rápidas
-
-## 🛠️ Instalação e Execução
-
-### Pré-requisitos
-```bash
-Python 3.8+
-pip install -r requirements.txt
-```
-
-### Executar Aplicação Principal
-```bash
-cd VET
-python -m streamlit run app.py
-```
-
-### Executar Aplicação Backup
-```bash
-cd VET
-python -m streamlit run app_backup.py --server.port 8505
-```
-
-### Executar Aplicação Simples
-```bash
-cd VET
-python -m streamlit run app_simples_vet.py --server.port 8506
-```
 
 ## 📊 Funcionalidades
 
@@ -178,14 +151,7 @@ Consulte o arquivo `DEPLOY.md` para instruções detalhadas de deploy em produç
 
 ### Local
 - **Principal:** http://localhost:8501
-- **Backup:** http://localhost:8598
-- **Simples:** http://localhost:8506
 
-### Rede
-- **Backup:** http://192.168.0.22:8598
-
-### Externo
-- **Backup:** http://181.222.101.75:8598
 
 ## 📚 Documentação Adicional
 
@@ -208,7 +174,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 ## 👥 Autores
 
-- **Lucas** - *Desenvolvimento Principal* - [@cali-arena](https://github.com/cali-arena)
+- **Lucas Cabral, Klauber Barros, Amanda Rodrigues, Marry, Fernando** - *Desenvolvimento Principal* - [@cali-arena](https://github.com/cali-arena)
 
 ## 🙏 Agradecimentos
 
@@ -221,8 +187,3 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 *Sistema desenvolvido para auxiliar veterinários no diagnóstico e análise de dados clínicos de animais, utilizando inteligência artificial para melhorar a precisão e eficiência dos diagnósticos veterinários.*
 
-## 📞 Contato
-
-Para dúvidas ou sugestões, entre em contato através do GitHub Issues ou email.
-
-**⭐ Se este projeto foi útil para você, considere dar uma estrela!**
